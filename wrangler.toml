@@ -1,0 +1,8 @@
+name = "karmis-support-bot"
+main = "worker.js"
+compatibility_date = "2025-06-01"
+
+# Створи KV у Cloudflare (Storage & Databases → KV → Create) і встав сюди його ID.
+[[kv_namespaces]]
+binding = "SUPPORT_KV"
+id = "ВСТАВ_ID_KV_СЮДИ"
